@@ -1,164 +1,109 @@
 // productos.js
 
 export const listaProductos = [
-  // 1.
   {
     id: 1,
-    nombre: "Calculadora Científica Avanzada",
-    descripcion: "Ideal para cálculos complejos de ingeniería y finanzas.",
-    precio: 25.99,
-    imagen: "url-de-imagen-calculadora.jpg"
+    nombre: "Silla de Oficina Kawaii",
+    descripcion: "Silla ergonómica rosa con detalles adorables.",
+    precio: 120.5,
+    imagen: "https://realplaza.vtexassets.com/arquivos/ids/36769900-800-auto?v=638754933012000000&width=800&height=auto&aspect=true",
   },
-  // 2.
   {
     id: 2,
-    nombre: "Set de Bolígrafos de Gel (12 Colores)",
-    descripcion: "Tinta de secado rápido, punta fina para escritura suave.",
-    precio: 9.50,
-    imagen: "url-de-imagen-boligrafos.jpg"
+    nombre: "Escritorio Lila Moderno",
+    descripcion: "Escritorio en tonos lilas, perfecto para tu oficina.",
+    precio: 250.0,
+    imagen: "https://realplaza.vtexassets.com/arquivos/ids/30976791/image-cc2da61f957b45f0ba4a70da13f0a407.jpg?v=638040647843900000",
   },
-  // 3.
   {
     id: 3,
-    nombre: "Archivador Metálico de 4 Cajones",
-    descripcion: "Gabinete con cerradura y guías para carpetas colgantes.",
-    precio: 150.00,
-    imagen: "url-de-imagen-archivador.jpg"
+    nombre: "Lámpara de Mesa",
+    descripcion: "Lámpara con diseño adorable y luz cálida.",
+    precio: 45.99,
+    imagen: "https://m.media-amazon.com/images/I/619V7npUHvS.jpg",
   },
-  // 4.
   {
     id: 4,
-    nombre: "Paquete de Papel A4 (500 Hojas)",
-    descripcion: "Papel blanco de 80 gramos, ideal para impresoras láser/tinta.",
-    precio: 5.99,
-    imagen: "url-de-imagen-papel.jpg"
+    nombre: "Cuaderno Rosa Pastel",
+    descripcion: "Cuaderno de tapa dura, ideal para tus anotaciones kawaii.",
+    precio: 9.99,
+    imagen: "https://acdn-us.mitiendanube.com/stores/001/275/036/products/1-40d3614be84db1330b17145068016164-1024-1024.jpg",
   },
-  // 5.
   {
     id: 5,
-    nombre: "Organizador de Escritorio de Bambú",
-    descripcion: "Múltiples compartimentos para lápices, notas y clips.",
-    precio: 18.75,
-    imagen: "url-de-imagen-organizador.jpg"
+    nombre: "Taza Morada",
+    descripcion: "Taza con diseño lila brillante, perfecta para tu café.",
+    precio: 15.5,
+    imagen: "https://m.media-amazon.com/images/I/71bzKm+oQeL._UF350,350_QL80_.jpg",
   },
-  // 6.
   {
     id: 6,
-    nombre: "Ratón Inalámbrico Ergonómico",
-    descripcion: "Conexión 2.4GHz, diseño vertical para mayor comodidad.",
-    precio: 35.00,
-    imagen: "url-de-imagen-raton.jpg"
+    nombre: "Organizador de Escritorio",
+    descripcion: "Mantén todo ordenado con este organizador lila adorable.",
+    precio: 22.0,
+    imagen: "https://cdn.quicksell.co/-OBNSki-uGBmBjyVbVUR/products/-OEigAcUFPrk-z9Odpba.jpg",
   },
-  // 7.
   {
     id: 7,
-    nombre: "Cuaderno Espiral Tamaño Carta",
-    descripcion: "100 hojas de rayas, tapa dura, ideal para tomar notas.",
-    precio: 4.25,
-    imagen: "url-de-imagen-cuaderno.jpg"
+    nombre: "Mouse inalámbrico Rosa",
+    descripcion: "Cómodo mouse inalámbrico con color rosa pastel.",
+    precio: 18.75,
+    imagen: "https://www.sisaqp.com/wp-content/uploads/2024/09/mswpkte1218s.jpg",
   },
-  // 8.
   {
     id: 8,
-    nombre: "Trituradora de Papel Personal",
-    descripcion: "Corte cruzado, capacidad de 6 hojas, papelera de 12 litros.",
-    precio: 75.90,
-    imagen: "url-de-imagen-trituradora.jpg"
+    nombre: "Teclado Mecánico",
+    descripcion: "Teclado con iluminación morada y teclas personalizables.",
+    precio: 85.99,
+    imagen: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=300&q=80",
   },
-  // 9.
   {
     id: 9,
-    nombre: "Silla de Oficina Ergonómica 'Mesh'",
-    descripcion: "Respaldo de malla transpirable, soporte lumbar ajustable.",
-    precio: 199.99,
-    imagen: "url-de-imagen-silla.jpg"
+    nombre: "Alfombrilla de Ratón",
+    descripcion: "Alfombrilla suave con diseño kawaii y colores pastel.",
+    precio: 12.49,
+    imagen: "https://http2.mlstatic.com/D_NQ_NP_701878-MPE88717238470_072025-O.webp",
   },
-  // 10.
   {
     id: 10,
-    nombre: "Monitor LED Full HD de 24 Pulgadas",
-    descripcion: "Bisel delgado, tiempo de respuesta de 5ms, puertos HDMI y VGA.",
-    precio: 145.00,
-    imagen: "url-de-imagen-monitor.jpg"
+    nombre: "Set de Post-its",
+    descripcion: "Notas adhesivas en colores pastel para tus ideas.",
+    precio: 7.99,
+    imagen: "https://i.pinimg.com/236x/d2/6d/0f/d26d0fe7ac926ff50151b6f05a819266.jpg",
   },
-  // 11.
   {
     id: 11,
-    nombre: "Grapadora de Uso Rudo",
-    descripcion: "Capacidad de 50 hojas, incluye 1000 grapas.",
-    precio: 12.50,
-    imagen: "url-de-imagen-grapadora.jpg"
+    nombre: "Bolígrafos Kawaii",
+    descripcion: "Set de bolígrafos con diseños adorables y tinta suave.",
+    precio: 14.0,
+    imagen: "https://i.pinimg.com/736x/65/c3/e3/65c3e3ac6a1cd7ca018c4eaddd276635.jpg",
   },
-  // 12.
   {
     id: 12,
-    nombre: "Post-it Notas Adhesivas (Paquete de 6)",
-    descripcion: "Tamaño estándar 3x3 pulgadas, colores neón.",
-    precio: 7.99,
-    imagen: "url-de-imagen-postit.jpg"
+    nombre: "Cargador Inalámbrico",
+    descripcion: "Cargador inalámbrico con diseño en tonos morados.",
+    precio: 29.99,
+    imagen: "https://i.ebayimg.com/images/g/xHsAAOSwuR1oNrIz/s-l225.jpg",
   },
-  // 13.
   {
     id: 13,
-    nombre: "Rotuladores Permanentes Punta Fina",
-    descripcion: "Set de 8 colores, resistentes al agua y al desvanecimiento.",
-    precio: 6.50,
-    imagen: "url-de-imagen-rotuladores.jpg"
+    nombre: "Auriculares Rosas",
+    descripcion: "Auriculares inalámbricos con detalles en rosa pastel.",
+    precio: 55.5,
+    imagen: "https://smartgo.pe/files/images/productos/1718137944-audifonos-bluetooth-p9-rosa-0.webp",
   },
-  // 14.
   {
     id: 14,
-    nombre: "Base de Refrigeración para Portátil",
-    descripcion: "Soporte ajustable con dos ventiladores silenciosos.",
-    precio: 29.90,
-    imagen: "url-de-imagen-base-portatil.jpg"
+    nombre: "Lámpara de Escritorio LED",
+    descripcion: "Lámpara con luz regulable y diseño compacto morado.",
+    precio: 39.99,
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX0ZYBY7Mf9yG_1NhhpybQ_TM7lQtD4tAd-A&s",
   },
-  // 15.
   {
     id: 15,
-    nombre: "Kit de Limpieza para Pantallas",
-    descripcion: "Spray limpiador sin alcohol y paño de microfibra.",
-    precio: 8.95,
-    imagen: "url-de-imagen-limpieza.jpg"
-  },
-  // 16.
-  {
-    id: 16,
-    nombre: "Pizarra Magnética de Borrado en Seco",
-    descripcion: "Tamaño 60x45cm, marco de aluminio, incluye rotulador y borrador.",
-    precio: 22.00,
-    imagen: "url-de-imagen-pizarra.jpg"
-  },
-  // 17.
-  {
-    id: 17,
-    nombre: "Cinta Adhesiva Transparente (6 Rollos)",
-    descripcion: "Ideal para embalaje y reparaciones ligeras.",
-    precio: 10.99,
-    imagen: "url-de-imagen-cinta.jpg"
-  },
-  // 18.
-  {
-    id: 18,
-    nombre: "Destructora de Documentos de Tira",
-    descripcion: "Económica, capacidad de 4 hojas, para uso ocasional.",
-    precio: 45.00,
-    imagen: "url-de-imagen-destructora.jpg"
-  },
-  // 19.
-  {
-    id: 19,
-    nombre: "Batería Externa Power Bank 10000mAh",
-    descripcion: "Carga rápida, doble puerto USB, compacta.",
-    precio: 20.99,
-    imagen: "url-de-imagen-powerbank.jpg"
-  },
-  // 20.
-  {
-    id: 20,
-    nombre: "Impresora Multifunción Inalámbrica",
-    descripcion: "Imprime, escanea y copia. Conexión Wi-Fi y aplicación móvil.",
-    precio: 110.00,
-    imagen: "url-de-imagen-impresora.jpg"
+    nombre: "Silla Gamer Rosada",
+    descripcion: "Silla gamer ergonómica con un toque kawaii.",
+    precio: 199.99,
+    imagen: "https://www.lacuracao.pe/media/catalog/product/2/0/20205109-3_4.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700",
   },
 ];

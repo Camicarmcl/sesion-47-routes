@@ -5,7 +5,7 @@ export function Navbar(){
     <nav className="nav">
       <div className="nav-inner">
         <Link to="/" className="brand-name">
-          🌸 La casa de la oficina
+          🌸 La casa de la oficina 🌸 
         </Link>
 
         <div className="nav-links">

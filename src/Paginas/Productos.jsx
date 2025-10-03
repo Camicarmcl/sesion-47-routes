@@ -1,4 +1,7 @@
 // Productos.jsx
+import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 // Asegúrate de que la ruta de importación sea correcta.
 // Si datosProductos.js está en el mismo nivel, usa './datosProductos.js'
@@ -30,7 +33,18 @@ export function Productos() {
                             <p style={styles.precio}>
                                 **Precio:** <span style={styles.valorPrecio}>${producto.precio.toFixed(2)}</span>
                             </p>
-                            <button style={styles.boton}>Añadir al Carrito</button>
+    
+                                <div style={styles.botonesContainer}><button style={styles.botonAgregar}>💜 Añadir al Carrito 💜</button>
+                                <Link to={`/productos/${producto.id}`} style={styles.linkBoton}>🎀 Ver detalles 🎀</Link>
+                                </div>
+ 
+
+
+
+ 
+                            
+
+
                         </div>
                     </div>
                 ))}
@@ -43,7 +57,7 @@ export function Productos() {
 const styles = {
     contenedorProductos: {
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', // Diseño responsivo con columnas
+        gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
         gap: '20px',
         marginTop: '20px',
     },
@@ -98,5 +112,43 @@ const styles = {
         marginTop: '10px',
         width: '100%',
         maxWidth: '200px',
-    }
+    },
+    // ✅ Estos dos deben ir fuera de "boton"
+    botonAgregar: {
+    backgroundColor: '#ff7f9e',  // Rosita kawaii
+    color: '#fff',
+    border: 'none',
+    padding: '10px 20px',
+    borderRadius: '12px',
+    cursor: 'pointer',
+    marginTop: '10px',
+    width: '100%',
+    maxWidth: '200px',
+    fontWeight: 'bold',
+    fontSize: '14px',
+    boxShadow: '0 4px 8px rgba(255, 127, 158, 0.4)',
+    transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+  },
+  linkBoton: {
+    backgroundColor: '#b042f5',   // Morado prendido
+    color: '#ffffff',
+    padding: '10px 20px',
+    borderRadius: '12px',
+    textDecoration: 'none',
+    textAlign: 'center',
+    width: '100%',
+    maxWidth: '200px',
+    display: 'inline-block',
+    boxShadow: '0 6px 10px rgba(176, 66, 245, 0.3)',
+    fontWeight: 'bold',
+    fontSize: '14px',
+    transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+  },
+  botonesContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '10px',
+    alignItems: 'center',
+    marginTop: '10px',
+  }
 };

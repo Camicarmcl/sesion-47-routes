@@ -4,6 +4,7 @@ import { Inicio } from "./Paginas/Inicio";
 import { Nosotros } from "./Paginas/Nosotros";
 import { Productos } from "./Paginas/Productos";
 import { Navbar }from "./Componentes/Navbar";
+import { Detalle } from "./Paginas/Detalle";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Route path="/" element={<Inicio/>}></Route>
     <Route path="/nosotros" element={<Nosotros/>}></Route>
     <Route path="/productos" element={<Productos/>}></Route>
+    <Route path="/productos/:id" element={<Detalle/>}></Route>
   </Routes>
   </>
   )
